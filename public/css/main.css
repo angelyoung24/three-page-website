@@ -10,6 +10,13 @@ h1 {
   font-family: 'Amatic SC', cursive;
 }
 
+p {
+  font-family: sans-serif;
+}
+
+li {
+  font-family: sans-serif;
+}
 .nav-header {
   background-color: pink;
   position: fixed;
@@ -160,12 +167,21 @@ div.container {
   }
 }
 
-/**footer**/
+/**footer credit to Melissa Canada &copy 2015 https://codepen.io/MelissaMMDP/pen/doGbNy **/
 
 footer {
-  background-color: black;
-  color: black;
+  background-color: pink;
+  bottom: auto;
+  color: #000000;
+  text-align: center;
+  margin: 2cm 2cm 2cm 2cm;
+  float: none;
+  top: 0;
+  left: 0;
+  padding: 1em;
 }
+
+
 /** About Page **/
 .donuts1, .donuts2 {
   list-style-type: none;
